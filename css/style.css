@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+* {
+  min-height:auto;
+}
+
+body {
+  /* Background */
+  background-color: rgb(17, 18, 22);
+  background-image: url("https://i.imgur.com/kazu3Ap.png");
+  background-size: 150%;
+  background-repeat: unset;
+  background-clip: content-box;
+  background-position: top center;
+  background-attachment: fixed;
+
+  /* Text */
+  color: rgb(253, 255, 240);
+
+  /* Font */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+a {
+  color: rgb(253, 255, 240);
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 15%;
+}
+
+#center {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Colors */
+
+.roblox {
+  background-color: rgb(35, 35, 37);
+  border-color: rgb(189, 189, 189);
+}
+
+.x {
+  background-color: rgb(17, 18, 22);
+  border-color: rgb(225, 225, 225);
+}
+
+.discord {
+  background-color: rgb(88, 101, 242);
+  border-color: rgb(135, 158, 182);
+}
+
+.youtube {
+  background-color: rgb(230, 0, 0);
+  border-color: rgb(77, 5, 5);
+}
+
+/* Hover Colors */
+
+.roblox:hover {
+  background-color: rgb(39, 39, 41);
+}
+
+.x:hover {
+  background-color: rgb(21, 22, 26);
+}
+
+.discord:hover {
+  background-color: rgb(95, 108, 250);
+}
+
+.youtube:hover {
+  background-color: rgb(255, 10, 10);
+}
+
+
+/* Buttons */
+
+.button {
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275, 1);
+
+  text-align: left;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  max-width: 30%;
+
+  border-width: 3px;
+  border-style: solid;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button-icon {
+  width: 7%;
+  height: 1%;
+
+  /* Positioning */
+
+  position: relative;
+  top: 50%;
+  transform: translate(0%, 13%);
+}
+
+.splash-minecraft {
+  color: rgb(255, 254, 19);
+  text-shadow: 4px 4px 0px rgb(64, 66, 0);
+  font-family: 'Minecraft', sans-serif;
+  font-size: 30px;
+
+  padding-top: 15px;
+
+  transition-timing-function: unset;
+}
+
+#fix {
+  min-height: 50px;
+  max-height: 50px;
+  margin: 40px 40px;
+}
+
+inv {
+  opacity: 0;
+  font-size: 0px;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 70%;
+  margin: auto;
+}
+
+.games {
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275, 1);
+  align-items: left;
+  text-align: left;
+  float: left;
+  display: block;
+
+  margin: 20px 20px;
+  padding: 20px 10px;
+  padding-bottom: 30px;
+  border-radius: 25px;
+  max-width: 100%;
+  max-height: 25%;
+
+  backdrop-filter: blur(5px);
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(209, 172, 225);
+}
+
+.games img {
+  max-width: 15%;
+  padding-right: 10px;
+}
+
+.TTDC {
+  border-color: rgb(229, 105, 113);
+}
+
+.TTDC a {
+    color: rgb(229, 105, 113);
+}
+
+.TTDC img {
+    border-radius: 25px;
+}
+
+.title {
+  color: rgb(209, 172, 225);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 4px;
+}
+
+.underline {
+    text-decoration: underline;
+}

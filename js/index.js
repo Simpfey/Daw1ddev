@@ -7,8 +7,8 @@ function load() {
                      "I'm not paid to do this website",
                      "Daw1d pls hire me I need money for my family to live, I have 3 kids and a wife"];
 
-    const elem = document.getElementById("Splash");
-    elem.innerText = splashes[Math.floor(Math.random() * splashes.length)];
+    //const elem = document.getElementById("Splash");
+    //elem.innerText = splashes[Math.floor(Math.random() * splashes.length)];
 
     const CustomSplashes = ["Fun Fact: Daw1dDevv favorite color is purple",
                             "Fun Fact: Daw1dDevv's favorite food is cheeseburgers",
@@ -25,7 +25,7 @@ function load() {
     const Facts = document.getElementById("Quotes");
     Facts.innerText = CustomSplashes[Math.floor(Math.random() * CustomSplashes.length)];
 
-    if (elem.innerText == "Also try Minecraft!") {
-        elem.className = "splash-minecraft";
-    }
+    //if (elem.innerText == "Also try Minecraft!") {
+    //    elem.className = "splash-minecraft";
+    //}
 }
